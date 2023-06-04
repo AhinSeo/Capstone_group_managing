@@ -1,0 +1,9 @@
+@import "screens/signup.css";
+@import "screens/startpage.css";
+@import "screens/creategroup.css";
+@import "screens/allgroup.css";
+@import "screens/mygroup.css";
+
+body {
+  background-color: rgb(214, 243, 255);
+}

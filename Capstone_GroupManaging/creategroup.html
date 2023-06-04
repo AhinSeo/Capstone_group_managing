@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>그룹 생성 페이지</title>
+  </head>
+  <body>
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">그룹 생성</h1>
+    </header>
+
+    <form action="creategroup.html" method="get" id="creategroup-form">
+      <div>
+        <p>모임명</p>
+        <input name="group_name" type="text" placeholder="모임명 입력" />
+        <p>참여 인원수</p>
+        <input name="people_num" type="number" placeholder="인원수 입력" />
+        <p>모임 소개</p>
+        <input name="description" type="text" placeholder="소개글 재입력" />
+        <p>기간</p>
+        <input name="period" type="date" placeholder="기간 입력" />
+      </div>
+
+      <div class="creategroup-btn-form">
+        <input type="submit" value="생성" />
+        <button id="group-cancel-btn">취소</button>
+      </div>
+    </form>
+  </body>
+</html>

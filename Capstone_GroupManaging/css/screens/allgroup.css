@@ -1,0 +1,19 @@
+.group-cat {
+  /* display: flex; */
+  width: 100%;
+}
+
+.group-cat:first-child span {
+  margin-right: 10px;
+}
+
+.creategroup-link-btn {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+.plus-img {
+  width: 100px;
+  height: 100px;
+}

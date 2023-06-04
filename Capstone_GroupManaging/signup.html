@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>회원가입 페이지</title>
+  </head>
+  <body>
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">회원가입</h1>
+    </header>
+
+    <form action="signup.html" method="get" id="signup-form">
+      <div>
+        <p>아이디</p>
+        <input name="id" type="text" placeholder="아이디 입력" />
+        <p>비밀번호</p>
+        <input name="password" type="password" placeholder="비밀번호 입력" />
+        <p>비밀번호 확인</p>
+        <input name="password" type="password" placeholder="비밀번호 재입력" />
+        <p>이름</p>
+        <input name="name" type="text" placeholder="이름" />
+      </div>
+
+      <div class="signup-btn-form">
+        <input type="submit" value="회원가입" />
+        <button id="signup-cancel-btn">
+          <a href="/startpage.html" target="_self">취소</a>
+        </button>
+      </div>
+    </form>
+  </body>
+</html>
